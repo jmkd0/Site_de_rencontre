@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #474e5d;
+  }
+.cadre{
+    width:52vh; 
+    min-height:85vh; 
+    margin: 3% auto 0% 38%;
+    border-radius: 1vh;
+    border: 2px solid rgb(65, 66, 63);
+    background-color:rgb(219, 210, 210);
+}
+.drag{
+        
+    width:52vh;  
+    height:70vh; 
+    
+    border: 1px solid rgb(66, 63, 63);
+    border-radius: 1vh;
+    box-shadow: 3px 3px 3px 3px rgb(173, 169, 169);
+}
+
+.cadretete{
+    width:52vh; 
+    min-height:5vh;
+    color:rgb(192, 221, 233);
+    font-size: 2.6vh;
+    text-align: center;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+    border-radius: 1vh;
+    background-color:rgb(48, 56, 83);
+}
+.cadredrag{
+    width:52vh;  
+    min-height:70vh;background-color:rgb(78, 86, 114);
+}
+.navigation{
+    width:52vh;
+    height: 10vh;
+    border-radius: 1vh;
+    background-color:rgb(48, 56, 83);
+}
+img{
+    width:8vh;
+    height:8vh;
+    -webkit-border-radius: 8vh;
+    -moz-border-radius: 8vh;
+    border-radius: 8vh;
+}
+.imagedrag{
+    width:52vh; 
+    height:70vh;
+    border-radius: 1vh;
+}
+.aglobe{
+    position:relative;
+    float: left;
+    padding-top:1vh;
+    margin-left: 4vh;
+}
+.amache{
+    position:relative;
+    float: left;
+    padding-top:1vh;
+    margin-left: 10vh;
+}
+.aprofil{
+    position:relative;
+    float: right;
+    padding-top:1vh;
+    margin-right: 4vh;
+}
+.descprofil{
+    width:50vh;
+    height: 15vh;
+    position:absolute; top:55vh; left:1vh;
+    z-index: 1;
+    overflow: scroll;
+    /*Hide the scroll bar*/
+    -ms-overflow-style: none; /* Internet Explorer */
+    scrollbar-width: none; /* Firefox */
+}
+.descprofil::-webkit-scrollbar{ /* Chrome */
+    display: none;
+}
+.iconechat{
+    border-radius: 3vh ;
+    width:7vh;
+    height: 4vh;
+    z-index: 2;
+    position:absolute; bottom: 1vh; left:24vh;
+}
+.textstyle{
+    color:white;
+    font-size: 2.6vh;
+    text-align: center;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+.commentstyle{
+    color:white;
+    font-size: 2vh;
+    text-align: center;
+    height: 10vh;
+    margin-top: 10vh;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+
+}
+
